@@ -32,7 +32,7 @@ const ownerNumber = ['94715603835'];
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/Sonic_session/creds.json')) {
-  if (!config.SESSION_ID) return console.log('Please enter your session to SESSION_ID !!');
+  if (!config.SESSION_ID) return console.log('RCD-MD&AFumF55u');
   const sessdata = config.SESSION_ID;
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
   filer.download((err, data) => {
